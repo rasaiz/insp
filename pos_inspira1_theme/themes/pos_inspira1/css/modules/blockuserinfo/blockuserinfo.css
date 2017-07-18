@@ -1,0 +1,42 @@
+.header_userinfo {
+  float: right; }
+  @media (max-width: 767px) {
+    .header_userinfo {
+      float: none;
+      display: inline-block;
+      width: 100%; } }
+  .header_userinfo .top-userinfo {
+    display: inline-block;
+    position: relative; }
+    .header_userinfo .top-userinfo:hover .top-links {
+      color: #e74948; }
+    .header_userinfo .top-userinfo .top-links {
+      font-weight: normal;
+      padding: 15px;
+      line-height: 40px;
+      color: #363636;
+      text-shadow: none;
+      cursor: pointer; }
+      .header_userinfo .top-userinfo .top-links:after {
+        content: "\f107";
+        font-family: "FontAwesome";
+        font-size: 14px;
+        line-height: 1;
+        vertical-align: middle;
+        padding-left: 7px; }
+    .header_userinfo .top-userinfo ul li {
+      color: #fff;
+      font-size: 12px;
+      text-transform: capitalize;
+      display: inline-block;
+      width: 100%;
+      line-height: 40px; }
+      .header_userinfo .top-userinfo ul li a,
+      .header_userinfo .top-userinfo ul li > span {
+        padding: 0 15px;
+        display: block;
+        color: #fff; }
+      .header_userinfo .top-userinfo ul li.selected, .header_userinfo .top-userinfo ul li:hover a {
+        color: #e74948; }
+
+/*# sourceMappingURL=blockuserinfo.css.map */

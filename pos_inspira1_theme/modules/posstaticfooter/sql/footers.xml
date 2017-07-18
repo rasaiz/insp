@@ -1,0 +1,343 @@
+<pos_static_blocks>
+<!-- static block configuration -->
+	<block>
+		<id_posstaticblock>1</id_posstaticblock>
+		<identify>footer_static_col1</identify>
+		<hook_position>blockFooter1</hook_position>
+		<name_module></name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+		<is_default>1</is_default>
+	</block>
+	<block>
+		<id_posstaticblock>2</id_posstaticblock>
+		<identify>footer_static_col2</identify>
+		<hook_position>blockFooter1</hook_position>
+		<name_module></name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+		<is_default>1</is_default>
+	</block>
+	<block>
+		<id_posstaticblock>3</id_posstaticblock>
+		<identify>footer_static_col3</identify>
+		<hook_position>blockFooter1</hook_position>
+		<name_module>blockmyaccountfooter</name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>1</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+		<is_default>1</is_default>
+	</block>
+	<block>
+		<id_posstaticblock>5</id_posstaticblock>
+		<identify>footer_static_col4</identify>
+		<hook_position>blockFooter1</hook_position>
+		<name_module>blockcms</name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>1</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+		<is_default>1</is_default>
+	</block>
+	<block>
+		<id_posstaticblock>6</id_posstaticblock>
+		<identify>footer_static_col5</identify>
+		<hook_position>blockFooter1</hook_position>
+		<name_module>blocknewsletter</name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>1</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+		<is_default>1</is_default>
+	</block>
+	<block>
+		<id_posstaticblock>7</id_posstaticblock>
+		<identify>footer_static_col6</identify>
+		<hook_position>blockFooter5</hook_position>
+		<name_module></name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+		<is_default>1</is_default>
+	</block>
+	<block>
+		<id_posstaticblock>8</id_posstaticblock>
+		<identify>block_links</identify>
+		<hook_position>blockFooter5</hook_position>
+		<name_module></name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+		<is_default>1</is_default>
+	</block>
+	<block>
+		<id_posstaticblock>9</id_posstaticblock>
+		<identify>footer_static_col8</identify>
+		<hook_position>blockFooter2</hook_position>
+		<name_module></name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+		<is_default>1</is_default>
+	</block>
+	
+<!-- block language configuration -->
+<!-- language1-->
+	<block_language>
+		<id_posstaticblock>1</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Footer Static Col1</title>
+		<description>
+			<![CDATA[
+				<div class="footer-about col-sm-6 col-lg-3 col-xs-12">
+				<div class="footer-block">
+				<h4>about us</h4>
+				<ul class="block_content toggle-footer">
+				<li class="des">We are a team of designers and developers that create high quality Magento, Prestashop, Opencart themes and provide premium and dedicated support to our products.</li>
+				<li class="address">Address : No 40 Baria Sreet 133/2, NewYork, USA.</li>
+				<li class="phone">Phone: +(1234) 567 890</li>
+				<li class="Email">Email: Infor@inspira.com</li>
+				</ul>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>2</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Footer Static Col2</title>
+		<description>
+			<![CDATA[
+				<div class="col-sm-6 col-md-2 col-xs-12">
+				<div class="footer-block">
+				<h4>servive</h4>
+				<ul class="block_content toggle-footer">
+				<li class="first"><a href="#">Contact us</a></li>
+				<li><a href="#">Discount</a></li>
+				<li><a href="#">Site map</a></li>
+				<li><a href="#">About us</a></li>
+				<li class="last"><a href="#">Perfume</a></li>
+				</ul>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>3</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Footer Static Col3</title>
+		<description>
+			<![CDATA[
+				
+				]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>5</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Footer Static Col4</title>
+		<description>
+			<![CDATA[
+				
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>6</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Footer Static Col5</title>
+		<description>
+			<![CDATA[
+				
+			]]>
+		</description>
+	</block_language>	
+	<block_language>
+		<id_posstaticblock>7</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Footer Static Col6</title>
+		<description>
+			<![CDATA[
+				<address class="col-sm-6 col-xs-12">Copyright <i class="icon-copyright"></i> <a href="http://posthemes.com/">Posthemes</a>. All Rights Reserved</address>
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>8</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Footer Static Col7</title>
+		<description>
+			<![CDATA[
+				<div class="block-payment  col-sm-6 col-xs-12"><img src="/posthemes/pos_inspira/img/cms/payment.png" alt="" /></div>
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>9</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Footer Static Col8</title>
+		<description>
+			<![CDATA[
+				
+			]]>
+		</description>
+	</block_language>
+
+<!-- block language configuration -->
+	<!-- language2-->
+	
+	<block_language>
+		<id_posstaticblock>1</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Footer Static Col1</title>
+		<description>
+			<![CDATA[
+				<div class="footer-about col-sm-6 col-lg-3 col-xs-12">
+				<div class="footer-block">
+				<h4>about us</h4>
+				<ul class="block_content toggle-footer">
+				<li class="des">We are a team of designers and developers that create high quality Magento, Prestashop, Opencart themes and provide premium and dedicated support to our products.</li>
+				<li class="address">Address : No 40 Baria Sreet 133/2, NewYork, USA.</li>
+				<li class="phone">Phone: +(1234) 567 890</li>
+				<li class="Email">Email: Infor@inspira.com</li>
+				</ul>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>2</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Footer Static Col2</title>
+		<description>
+			<![CDATA[
+				<div class="col-sm-6 col-md-2 col-xs-12">
+				<div class="footer-block">
+				<h4>servive</h4>
+				<ul class="block_content toggle-footer">
+				<li class="first"><a href="#">Contact us</a></li>
+				<li><a href="#">Discount</a></li>
+				<li><a href="#">Site map</a></li>
+				<li><a href="#">About us</a></li>
+				<li class="last"><a href="#">Perfume</a></li>
+				</ul>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>3</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Footer Static Col3</title>
+		<description>
+			<![CDATA[
+				
+				]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>5</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Footer Static Col4</title>
+		<description>
+			<![CDATA[
+				
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>6</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Footer Static Col5</title>
+		<description>
+			<![CDATA[
+				
+			]]>
+		</description>
+	</block_language>	
+	<block_language>
+		<id_posstaticblock>7</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Footer Static Col6</title>
+		<description>
+			<![CDATA[
+				<address class="col-sm-6 col-xs-12">Copyright <i class="icon-copyright"></i> <a href="http://posthemes.com/">Posthemes</a>. All Rights Reserved</address>
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>8</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Footer Static Col7</title>
+		<description>
+			<![CDATA[
+				<div class="block-payment  col-sm-6 col-xs-12"><img src="/posthemes/pos_inspira/img/cms/payment.png" alt="" /></div>
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>9</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Footer Static Col8</title>
+		<description>
+			<![CDATA[
+				
+			]]>
+		</description>
+	</block_language>
+	
+<!-- block shop configuration -->
+	<block_shop>
+		<id_posstaticblock>1</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>2</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>3</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>5</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>6</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>7</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>8</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>9</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+
+</pos_static_blocks>
