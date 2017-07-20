@@ -1,1 +1,0 @@
-<div class="back-top"><a href= "#" class="mypresta_scrollup hidden-phone"></a></div>
