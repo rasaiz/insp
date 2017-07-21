@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKG,mEAAc;EACb,UAAU,EAAC,IAAI;AAEhB,mEAAc;EACb,KAAK,EAAC,OAAO;EACb,SAAS,EAAC,IAAI;EACd,WAAW,EAAC,MAAM;EAClB,WAAW,EAAC,IAAI;EAChB,MAAM,EAAC,MAAM",
+"sources": ["../../../sass/modules/posspecialsproducts/posspecialsproducts.scss"],
+"names": [],
+"file": "posspecialsproducts.css"
+}

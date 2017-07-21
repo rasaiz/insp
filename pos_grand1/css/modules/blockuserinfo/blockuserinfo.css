@@ -1,0 +1,48 @@
+.header_userinfo {
+  float: left;
+  padding: 0 15px; }
+  @media (max-width: 640px) {
+    .header_userinfo {
+      float: none;
+      display: inline-block;
+      width: 100%; } }
+  .header_userinfo #header_links {
+    display: none;
+    position: absolute;
+    padding: 0;
+    top: 35px;
+    right: 0;
+    min-width: 157px;
+    background: #f2f2f2;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    z-index: 2; }
+  .header_userinfo .top-userinfo {
+    display: inline-block;
+    position: relative; }
+    .header_userinfo .top-userinfo:hover .top-links {
+      color: #c2a773; }
+    .header_userinfo .top-userinfo .top-links {
+      font-size: 13px;
+      color: #4b4b4b;
+      cursor: pointer; }
+      .header_userinfo .top-userinfo .top-links:after {
+        content: "\f107";
+        font-family: "FontAwesome";
+        font-size: 12px;
+        vertical-align: middle;
+        padding-left: 7px; }
+    .header_userinfo .top-userinfo ul li {
+      color: #4b4b4b;
+      font-size: 12px;
+      text-transform: capitalize;
+      line-height: 40px; }
+      .header_userinfo .top-userinfo ul li a,
+      .header_userinfo .top-userinfo ul li > span {
+        padding: 0 15px;
+        display: block;
+        color: #4b4b4b; }
+      .header_userinfo .top-userinfo ul li.selected, .header_userinfo .top-userinfo ul li:hover a {
+        color: #c2a773; }
+
+/*# sourceMappingURL=blockuserinfo.css.map */
