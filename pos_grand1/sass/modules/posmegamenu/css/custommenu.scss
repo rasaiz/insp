@@ -1,5 +1,6 @@
 @import "compass";
-@import "theme_variables";
+@import "../../../_theme_variables";
+
 $col-width: 200px;
 $title-height: 40px;
 .pt_custommenu .pt_menu_cms.pt_menu .parentMenu a:after{display: none;}

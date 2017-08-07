@@ -1,7 +1,6 @@
 @import "compass";
-@import "theme_variables";
+@import "../../_theme_variables";
 
-/* lnk on detail product page */
 #wishlist_button, #wishlist_button_nopop {
 	position:relative;
 	color:#7d7d7d;
@@ -25,7 +24,6 @@
 	}
 }
 
-/* wishlist block */
 #wishlist_block {
 	#wishlist_block_list {
 		margin: 0 0 20px 0;
