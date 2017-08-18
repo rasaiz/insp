@@ -1,0 +1,80 @@
+/* jQuery Countdown styles 2.0.0. */
+.is-countdown {
+	display: inline-block;
+	margin-top: 8px;
+}
+.pos-special-product .is-countdown{padding-top: 0;font-size: 16px!important;}
+.countdown-rtl {
+	direction: rtl;
+}
+.countdown-holding span {
+	color: #888;
+}
+.countdown-row {
+	clear: both;
+	width: 100%;
+	text-align: center;
+
+}
+#product .countdown-row{background: none;}
+@media (max-width:1199px) {
+	.countdown-section {
+		width:auto;
+	}
+	.countdown-show1 .countdown-section {
+		width: 100%;
+	}
+	.countdown-show2 .countdown-section {
+		width: 50%;
+	}
+	.countdown-show3 .countdown-section {
+		width: 33.33%;
+	}
+	.countdown-show4 .countdown-section {
+		width: 25%;
+	}
+	#product .countdown-show4 .countdown-section{width: auto;}
+	.countdown-show5 .countdown-section {
+		width: 19.5%;
+	}
+	.countdown-show6 .countdown-section {
+		width: 16.25%;
+	}
+	.countdown-show7 .countdown-section {
+		width: 14%;
+	} 
+}
+.countdown-section {
+	 color: #333;  
+	 display: inline-block;
+	text-align: center;	
+	padding: 5px 0;
+	margin-right: 3px;
+	width:48px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #f7f7f7;
+}
+.countdown-section:first-child{
+	background: #d9121f;
+	border-color: #d9121f;
+	color: #fff;
+	width: 60px;
+}
+.countdown-amount {
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	position: relative;
+}
+.countdown-section:last-child .countdown-amount:after{display: none;}
+.countdown-period {
+    display: block;
+    font-size:12px;
+	font-weight:600;
+}
+.countdown-descr {
+	display: block;
+	width: 100%;
+}
+#defaultCountdown { width: 240px; height: 45px; }

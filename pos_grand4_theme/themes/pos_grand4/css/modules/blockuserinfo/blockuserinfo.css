@@ -1,0 +1,76 @@
+.header_userinfo {
+  float: right;
+  padding: 0 0 0 15px; }
+  @media (max-width: 640px) {
+    .header_userinfo {
+      float: none;
+      display: inline-block;
+      width: 100%;
+      padding: 0;
+      margin-bottom: 15px; } }
+  .header_userinfo #header_links {
+    display: none;
+    position: absolute;
+    padding: 0;
+    top: 35px;
+    right: 0;
+    min-width: 157px;
+    background: #f2f2f2;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    z-index: 2; }
+  .header_userinfo .top-userinfo {
+    display: inline-block;
+    position: relative; }
+    .header_userinfo .top-userinfo:hover .top-links {
+      color: #ff8a0b; }
+    .header_userinfo .top-userinfo .top-links {
+      font-size: 13px;
+      color: #4b4b4b;
+      cursor: pointer; }
+      .header_userinfo .top-userinfo .top-links:after {
+        content: "\f107";
+        font-family: "FontAwesome";
+        font-size: 12px;
+        vertical-align: middle;
+        padding-left: 7px; }
+    .header_userinfo .top-userinfo ul li {
+      color: #4b4b4b;
+      font-size: 12px;
+      text-transform: capitalize;
+      line-height: 40px; }
+      .header_userinfo .top-userinfo ul li a,
+      .header_userinfo .top-userinfo ul li > span {
+        padding: 0 15px;
+        display: block;
+        color: #4b4b4b; }
+      .header_userinfo .top-userinfo ul li.selected, .header_userinfo .top-userinfo ul li:hover a {
+        color: #ff8a0b; }
+
+.header_user_top {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  padding: 10px 20px 0; }
+  @media (max-width: 767px) {
+    .header_user_top {
+      border: none;
+      float: none;
+      display: inline-block; } }
+  .header_user_top:before {
+    content: "";
+    width: 1px;
+    height: 26px;
+    background: #d9d9d9;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .header_user_top a span:before {
+    font-size: 20px; }
+
+/*# sourceMappingURL=blockuserinfo.css.map */

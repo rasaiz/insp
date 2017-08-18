@@ -1,0 +1,325 @@
+<pos_static_blocks>
+<!-- static block configuration -->
+	<block>
+		<id_posstaticblock>13</id_posstaticblock>
+		<identify>banner_newsletter</identify>
+		<hook_position>blockPosition8</hook_position>
+		<name_module>blocknewsletter</name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>1</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>22</id_posstaticblock>
+		<identify>banner_nav</identify>
+		<hook_position>displayNav</hook_position>
+		<name_module></name_module>
+		<hook_module></hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>23</id_posstaticblock>
+		<identify>banner_slide_right</identify>
+		<hook_position>bannerSlide</hook_position>
+		<name_module></name_module>
+		<hook_module></hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>24</id_posstaticblock>
+		<identify>banner_home</identify>
+		<hook_position>blockPosition3</hook_position>
+		<name_module></name_module>
+		<hook_module></hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>25</id_posstaticblock>
+		<identify>banner_home_center</identify>
+		<hook_position>blockPosition7</hook_position>
+		<name_module></name_module>
+		<hook_module></hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>26</id_posstaticblock>
+		<identify>banner_featured</identify>
+		<hook_position>blockPosition5</hook_position>
+		<name_module></name_module>
+		<hook_module></hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>27</id_posstaticblock>
+		<identify>banner_right_detail</identify>
+		<hook_position>rightColumn</hook_position>
+		<name_module></name_module>
+		<hook_module></hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	
+<!-- block lang configuration -->
+<!-- language1 -->
+	
+	<block_lang>
+		<id_posstaticblock>13</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Banner Newsletter</title>
+		<description>
+			<![CDATA[
+				
+			]]>
+		</description>
+	</block_lang>
+	
+	<block_lang>
+		<id_posstaticblock>22</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Banner Nav</title>
+		<description>
+			<![CDATA[
+				<div class="banner_nav">
+				<p>FREE SHIPPING ON ORDERS OVER £49</p>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	
+	<block_lang>
+		<id_posstaticblock>23</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Banner Slide Right</title>
+		<description>
+			<![CDATA[
+				<div class="banner-slide-right">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+				<div class="banner-inner"><a href="#"><img src="/posthemes/pos_grand/img/cms/cms_4.1.jpg" alt="banner" class="img-responsive" /> </a></div>
+				<div class="banner-inner bottom"><a href="#"><img src="/posthemes/pos_grand/img/cms/cms_4.2.jpg" alt="banner" class="img-responsive" /> </a></div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	
+	<block_lang>
+		<id_posstaticblock>24</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Banner Home</title>
+		<description>
+			<![CDATA[
+				<div class="banner-home">
+				<div class="banner-inner"><a href="#"><img src="/posthemes/pos_grand/img/cms/cms_4.3.jpg" alt="banner" class="img-responsive" /> </a></div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	
+	<block_lang>
+		<id_posstaticblock>25</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Banner Home Center</title>
+		<description>
+			<![CDATA[
+				<div class="banner-home-center">
+				<div class="container">
+				<div class="text-img">
+				<div class="sale">-25%</div>
+				<div class="text">
+				<h1>Chairs & Chaises</h1>
+				<h2>Ethen Accent Chair - Laguna</h2>
+				<p>Vacation at Home. With its dashingly refined good looks, the Ethen accent chair is perfectly suited for any room that can use a dose of vibrant colour. Tight-back upholstery from top to bottom gives the chair.</p>
+				<div class="shop now"><a href="14-eyes">Shop now</a></div>
+				</div>
+				</div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	
+	<block_lang>
+		<id_posstaticblock>26</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Banner Featured</title>
+		<description>
+			<![CDATA[
+				<div class="banner-featured-right">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+				<div class="banner-inner"><a href="#"><img src="/posthemes/pos_grand/img/cms/cms_4.5.jpg" alt="banner" class="img-responsive" /> </a></div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	
+	<block_lang>
+		<id_posstaticblock>27</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Banner Right Detail</title>
+		<description>
+			<![CDATA[
+				<div class="banner-right-detail">
+				<div class="banner-inner"><a href="#"><img src="/posthemes/pos_grand/img/cms/right_detail.jpg" alt="banner" class="img-responsive" /> </a></div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+
+<!-- language2 -->	
+	
+	<block_lang>
+		<id_posstaticblock>13</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Banner Newsletter</title>
+		<description>
+			<![CDATA[
+				
+			]]>
+		</description>
+	</block_lang>
+	
+	<block_lang>
+		<id_posstaticblock>22</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Banner Nav</title>
+		<description>
+			<![CDATA[
+				<div class="banner_nav">
+				<p>FREE SHIPPING ON ORDERS OVER £49</p>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	
+	<block_lang>
+		<id_posstaticblock>23</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Banner Slide Right</title>
+		<description>
+			<![CDATA[
+				<div class="banner-slide-right">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+				<div class="banner-inner"><a href="#"><img src="/posthemes/pos_grand/img/cms/cms_4.1.jpg" alt="banner" class="img-responsive" /> </a></div>
+				<div class="banner-inner bottom"><a href="#"><img src="/posthemes/pos_grand/img/cms/cms_4.2.jpg" alt="banner" class="img-responsive" /> </a></div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	
+	<block_lang>
+		<id_posstaticblock>24</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Banner Home</title>
+		<description>
+			<![CDATA[
+				<div class="banner-home">
+				<div class="banner-inner"><a href="#"><img src="/posthemes/pos_grand/img/cms/cms_4.3.jpg" alt="banner" class="img-responsive" /> </a></div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	
+	<block_lang>
+		<id_posstaticblock>25</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Banner Home Center</title>
+		<description>
+			<![CDATA[
+				<div class="banner-home-center">
+				<div class="container">
+				<div class="text-img">
+				<div class="sale">-25%</div>
+				<div class="text">
+				<h1>Chairs & Chaises</h1>
+				<h2>Ethen Accent Chair - Laguna</h2>
+				<p>Vacation at Home. With its dashingly refined good looks, the Ethen accent chair is perfectly suited for any room that can use a dose of vibrant colour. Tight-back upholstery from top to bottom gives the chair.</p>
+				<div class="shop now"><a href="14-eyes">Shop now</a></div>
+				</div>
+				</div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	
+	<block_lang>
+		<id_posstaticblock>26</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Banner Featured</title>
+		<description>
+			<![CDATA[
+				<div class="banner-featured-right">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+				<div class="banner-inner"><a href="#"><img src="/posthemes/pos_grand/img/cms/cms_4.5.jpg" alt="banner" class="img-responsive" /> </a></div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	
+	<block_lang>
+		<id_posstaticblock>27</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Banner Right Detail</title>
+		<description>
+			<![CDATA[
+				<div class="banner-right-detail">
+				<div class="banner-inner"><a href="#"><img src="/posthemes/pos_grand/img/cms/right_detail.jpg" alt="banner" class="img-responsive" /> </a></div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	
+<!-- block shop configuration -->
+
+	<block_shop>
+		<id_posstaticblock>13</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>22</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>23</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>24</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>25</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>26</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>27</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+
+</pos_static_blocks>

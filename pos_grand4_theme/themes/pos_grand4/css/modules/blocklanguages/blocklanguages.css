@@ -1,0 +1,52 @@
+#languages-block-top {
+  float: right;
+  position: relative;
+  padding-right: 15px; }
+  @media (max-width: 640px) {
+    #languages-block-top {
+      float: none;
+      margin: 0 0 10px;
+      display: inline-block; } }
+  #languages-block-top span.firstWord {
+    display: none; }
+  #languages-block-top:hover div.current {
+    color: #ff8a0b; }
+  #languages-block-top div.current {
+    font-weight: normal;
+    text-transform: capitalize;
+    color: #4b4b4b;
+    font-size: 13px;
+    text-shadow: none;
+    cursor: pointer; }
+    #languages-block-top div.current strong {
+      font-weight: normal; }
+    #languages-block-top div.current:after {
+      content: "\f107";
+      font-family: "FontAwesome";
+      font-size: 12px;
+      vertical-align: middle;
+      padding-left: 7px; }
+  #languages-block-top ul {
+    display: none;
+    position: absolute;
+    padding: 0;
+    top: 35px;
+    left: 0;
+    min-width: 123px;
+    background: #f2f2f2;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    z-index: 2; }
+    #languages-block-top ul li {
+      color: #4b4b4b;
+      line-height: 40px;
+      font-size: 12px; }
+      #languages-block-top ul li a,
+      #languages-block-top ul li > span {
+        padding: 0 15px;
+        display: block;
+        color: #4b4b4b; }
+      #languages-block-top ul li.selected, #languages-block-top ul li:hover a {
+        color: #ff8a0b; }
+
+/*# sourceMappingURL=blocklanguages.css.map */

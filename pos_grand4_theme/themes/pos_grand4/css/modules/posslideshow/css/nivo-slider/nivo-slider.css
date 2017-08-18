@@ -1,0 +1,425 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700&subset=latin-ext);
+.ma-nivoslider {
+  overflow: hidden; }
+  .ma-nivoslider .pos-loading {
+    background: #ECECEC;
+    position: relative;
+    width: 100%; }
+    .ma-nivoslider .pos-loading span {
+      width: 32px;
+      height: 32px;
+      position: absolute;
+      z-index: 99;
+      background: url("loader.gif") no-repeat center #fff;
+      top: 50%;
+      left: 50%;
+      right: 50%;
+      bottom: 50%;
+      margin: -16px 0 0 -16px; }
+
+.nivoSlider {
+  position: relative;
+  width: 100%;
+  /* If an image is wrapped in a link */ }
+  .nivoSlider img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-width: none; }
+  .nivoSlider a.nivo-imageLink {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 6;
+    display: none;
+    background: white;
+    filter: alpha(opacity=0);
+    opacity: 0; }
+
+.nivo-main-image {
+  display: block !important;
+  position: relative !important;
+  width: 100% !important; }
+
+/* The slices and boxes in the Slider */
+.nivo-slice {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  height: 100%;
+  top: 0; }
+
+.nivo-box {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  overflow: hidden; }
+  .nivo-box img {
+    display: block; }
+
+/* Caption styles */
+.nivo-html-caption {
+  display: none; }
+
+@-webkit-keyframes myfirst {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+@keyframes myfirst {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+.timethai.pos_hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused; }
+
+/* slideshow edit */
+.pos-slideshow {
+  position: relative; }
+  .pos-slideshow:hover .nivo-directionNav a {
+    opacity: 1;
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+    transition: all 300ms ease-in; }
+  .pos-slideshow .nivo-directionNav a {
+    display: block;
+    color: #ff8a0b;
+    text-align: center;
+    font-size: 36px;
+    position: absolute;
+    z-index: 8;
+    opacity: 0;
+    cursor: pointer;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+    transition: all 300ms ease-in; }
+    @media (max-width: 1199px) {
+      .pos-slideshow .nivo-directionNav a {
+        width: 4.88281vw;
+        height: 4.88281vw;
+        line-height: 4.88281vw;
+        font-size: 1.95313vw;
+        margin-top: -2.44141vw; } }
+    @media (max-width: 767px) {
+      .pos-slideshow .nivo-directionNav a {
+        display: none; } }
+    .pos-slideshow .nivo-directionNav a.nivo-prevNav {
+      left: 20px; }
+      @media (max-width: 1199px) {
+        .pos-slideshow .nivo-directionNav a.nivo-prevNav {
+          left: 0; } }
+    .pos-slideshow .nivo-directionNav a.nivo-nextNav {
+      right: 20px; }
+      @media (max-width: 1199px) {
+        .pos-slideshow .nivo-directionNav a.nivo-nextNav {
+          right: 0; } }
+    .pos-slideshow .nivo-directionNav a:hover {
+      color: #fff; }
+  .pos-slideshow .nivo-controlNav {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 8; }
+    @media (max-width: 1199px) {
+      .pos-slideshow .nivo-controlNav {
+        bottom: 2.92969vw; } }
+    @media (max-width: 767px) {
+      .pos-slideshow .nivo-controlNav {
+        display: none; } }
+    .pos-slideshow .nivo-controlNav a {
+      display: inline-block;
+      height: 14px;
+      border-radius: 100%;
+      font-size: 0;
+      width: 14px;
+      margin: 0 4px;
+      text-align: center;
+      cursor: pointer;
+      position: relative;
+      z-index: 8;
+      background: #fff;
+      -webkit-transition: all 300ms ease-in;
+      -moz-transition: all 300ms ease-in;
+      -ms-transition: all 300ms ease-in;
+      -o-transition: all 300ms ease-in;
+      transition: all 300ms ease-in; }
+      .pos-slideshow .nivo-controlNav a.active, .pos-slideshow .nivo-controlNav a:hover {
+        background: #ff8a0b; }
+
+.pos-slideshow-content p {
+  margin: 0; }
+
+.desc1 {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  margin-top: -70px;
+  z-index: 6;
+  overflow: hidden;
+  text-align: center;
+  direction: ltr;
+  line-height: 1;
+  font-weight: 400;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+  @media (max-width: 640px) {
+    .desc1 {
+      margin-top: 0; } }
+  .desc1 .title1 {
+    font-size: 24px;
+    color: #2e2d25;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 0.9s;
+    animation-duration: 0.9s; }
+  .desc1 .title2 {
+    font-size: 40px;
+    color: #2e2d25;
+    font-weight: 900;
+    text-transform: uppercase;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 0.9s;
+    animation-duration: 0.9s; }
+  .desc1 .title3 {
+    font-size: 48px;
+    color: #2e2d25;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 0.9s;
+    animation-duration: 0.9s; }
+  .desc1 .readmore {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 0.9s;
+    animation-duration: 0.9s; }
+    .desc1 .readmore a {
+      -webkit-transition: all 300ms ease-in;
+      -moz-transition: all 300ms ease-in;
+      -ms-transition: all 300ms ease-in;
+      -o-transition: all 300ms ease-in;
+      transition: all 300ms ease-in;
+      position: relative;
+      font-size: 13px;
+      color: #333;
+      padding: 14px 26px;
+      margin-top: 50px;
+      font-weight: 400;
+      text-transform: uppercase;
+      display: inline-block;
+      border: 1px solid #333; }
+      .desc1 .readmore a.check_all {
+        background: #fff;
+        color: #2e2d25;
+        margin-left: 20px; }
+      .desc1 .readmore a:hover {
+        background: #ff8a0b;
+        color: #fff;
+        border-color: #ff8a0b;
+        -webkit-transition: all 300ms ease-in;
+        -moz-transition: all 300ms ease-in;
+        -ms-transition: all 300ms ease-in;
+        -o-transition: all 300ms ease-in;
+        transition: all 300ms ease-in; }
+
+.desc2 {
+  position: absolute;
+  top: 50%;
+  right: 6%;
+  z-index: 6;
+  text-align: left;
+  direction: ltr;
+  line-height: 1;
+  font-weight: 400;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+  .desc2 .title1 {
+    font-size: 22px;
+    color: #403f3f;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 0.9s;
+    animation-duration: 0.9s; }
+  .desc2 .title2 {
+    font-size: 48px;
+    color: #2e2d25;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 0.9s;
+    animation-duration: 0.9s; }
+  .desc2 .title3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+    max-width: 333px;
+    line-height: 25px;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 0.9s;
+    animation-duration: 0.9s; }
+  .desc2 .readmore {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 0.9s;
+    animation-duration: 0.9s; }
+    .desc2 .readmore a {
+      -webkit-transition: all 300ms ease-in;
+      -moz-transition: all 300ms ease-in;
+      -ms-transition: all 300ms ease-in;
+      -o-transition: all 300ms ease-in;
+      transition: all 300ms ease-in;
+      position: relative;
+      font-size: 13px;
+      color: #333;
+      padding: 14px 26px;
+      margin-top: 50px;
+      font-weight: 400;
+      text-transform: uppercase;
+      display: inline-block;
+      border: 1px solid #333; }
+      .desc2 .readmore a.check_all {
+        background: #fff;
+        color: #2e2d25;
+        margin-left: 20px; }
+      .desc2 .readmore a:hover {
+        background: #ff8a0b;
+        color: #fff;
+        border-color: #ff8a0b;
+        -webkit-transition: all 300ms ease-in;
+        -moz-transition: all 300ms ease-in;
+        -ms-transition: all 300ms ease-in;
+        -o-transition: all 300ms ease-in;
+        transition: all 300ms ease-in; }
+
+@media (max-width: 992px) {
+  .desc1, .desc2 {
+    margin: -1.2109vw 0 0; }
+    .desc1 .title1, .desc2 .title1 {
+      font-size: 2.01816vw; }
+    .desc1 .title2, .desc2 .title2 {
+      font-size: 3.02725vw;
+      margin: 0 0 2.01816vw 0; }
+    .desc1 .title3, .desc2 .title3 {
+      font-size: 1.81635vw; }
+    .desc1 .title4, .desc2 .title4 {
+      position: relative;
+      margin: 0 0 1.00908vw 0;
+      font-size: 3.02725vw;
+      line-height: 2.5227vw; }
+      .desc1 .title4 span, .desc2 .title4 span {
+        font-size: 2.01816vw; }
+    .desc1 .readmore a, .desc2 .readmore a {
+      font-size: 1.41271vw;
+      padding: 1.31181vw 2.01816vw;
+      margin-top: 3.02725vw; }
+      .desc1 .readmore a:before, .desc2 .readmore a:before {
+        font-size: 2.01816vw; } }
+@media (max-width: 767px) {
+  .desc1 .title1 {
+    font-size: 2.34375vw; }
+  .desc1 .title2 {
+    font-size: 2.92969vw; }
+  .desc1 .title3 {
+    font-size: 2.34375vw;
+    margin: 0 0 0.97656vw 0;
+    line-height: 2.44141vw; }
+  .desc1 .title4 {
+    position: relative;
+    margin: 0 0 0.97656vw 0;
+    font-size: 2.92969vw;
+    line-height: 2.44141vw; }
+    .desc1 .title4 span {
+      font-size: 1.95313vw; }
+  .desc1 .readmore a {
+    font-size: 1.36719vw;
+    line-height: 3.41797vw;
+    padding: 0 1.46484vw;
+    margin-top: 3.41797vw; }
+    .desc1 .readmore a:before {
+      font-size: 1.95313vw; }
+
+  .desc2 .title1 {
+    font-size: 2.34375vw; }
+  .desc2 .title2 {
+    font-size: 2.92969vw;
+    margin: 0 0 0.97656vw 0; }
+  .desc2 .title3 {
+    font-size: 2.34375vw;
+    margin: 0 0 0.97656vw 0;
+    line-height: 2.44141vw; }
+  .desc2 .title4 {
+    position: relative;
+    margin: 0 0 0.97656vw 0;
+    font-size: 2.92969vw; }
+    .desc2 .title4 span {
+      font-size: 1.95313vw; }
+  .desc2 .readmore a {
+    font-size: 1.36719vw;
+    line-height: 3.41797vw;
+    padding: 0 1.46484vw;
+    margin-top: 3.41797vw; }
+    .desc2 .readmore a:before {
+      font-size: 1.95313vw; } }
+@media (max-width: 480px) {
+  .desc1 .title1, .desc2 .title1 {
+    font-size: 2.91667vw; }
+  .desc1 .title2, .desc2 .title2 {
+    font-size: 2.91667vw;
+    margin: 0 0 1.04167vw 0; }
+  .desc1 .title3, .desc2 .title3 {
+    font-size: 2.91667vw;
+    margin: 0 0 1.04167vw 0;
+    line-height: 5.20833vw;
+    max-width: 85%;
+    display: none; }
+  .desc1 .title4, .desc2 .title4 {
+    position: relative;
+    margin: 0 0 1.04167vw 0;
+    font-size: 2.91667vw;
+    line-height: 5.20833vw; }
+    .desc1 .title4 span, .desc2 .title4 span {
+      font-size: 3.33333vw; }
+  .desc1 .readmore a, .desc2 .readmore a {
+    font-size: 2.5vw;
+    line-height: 5.20833vw;
+    padding: 0 2.08333vw; }
+    .desc1 .readmore a:before, .desc2 .readmore a:before {
+      font-size: 2.08333vw; } }
+
+/*# sourceMappingURL=nivo-slider.css.map */

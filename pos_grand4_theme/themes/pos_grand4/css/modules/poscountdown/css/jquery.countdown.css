@@ -1,0 +1,94 @@
+/* jQuery Countdown styles 2.0.0. */
+
+.is-countdown {
+	display: inline-block;
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.pos-special-product .is-countdown{padding-top: 0;font-size: 16px!important;}
+.countdown-rtl {
+	direction: rtl;
+}
+.countdown-holding span {
+	color: #888;
+}
+.countdown-row {
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+#product .countdown-row{background: none;}
+@media (max-width:1199px) {
+	.countdown-section {
+		width:auto;
+		margin:0 !important;
+	}
+	.countdown-show1 .countdown-section {
+		width: 100%;
+	}
+	.countdown-show2 .countdown-section {
+		width: 50%;
+	}
+	.countdown-show3 .countdown-section {
+		width: 33.33%;
+	}
+	.countdown-show4 .countdown-section {
+		width: 25%;
+	}
+	#product .countdown-show4 .countdown-section{width: auto;}
+	.countdown-show5 .countdown-section {
+		width: 19.5%;
+	}
+	.countdown-show6 .countdown-section {
+		width: 16.25%;
+	}
+	.countdown-show7 .countdown-section {
+		width: 14%;
+	} 
+}
+.countdown-section:last-child{margin-right: 0;}
+.countdown-section:last-child:after{display: none;}
+.countdown-section {
+	color: #333;
+    display: inline-block;
+    text-align: center;
+    padding: 0 8px;
+    width: 25%;
+	position: relative;
+}
+.countdown-section:after{
+	content: ":";
+	position: absolute;
+	right: -3px;
+	top: 50%;
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.countdown-amount {
+	font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    display: block;
+    padding: 17px 0;
+    background: #fff;
+}
+.countdown-section:last-child .countdown-amount:after{display: none;}
+.countdown-period {
+    display: none;
+    font-size:14px;
+}
+.countdown-descr {
+	display: block;
+	width: 100%;
+}
+#defaultCountdown { width: 240px; height: 45px; }

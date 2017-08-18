@@ -1,0 +1,92 @@
+<pos_slideshow>
+<!-- slideshow  configuration -->
+	<slideshow>
+		<id_pos_slideshow>35</id_pos_slideshow>
+		<porder>1</porder>
+		<active>1</active>
+	</slideshow>
+	<slideshow>
+		<id_pos_slideshow>36</id_pos_slideshow>
+		<porder>1</porder>
+		<active>1</active>
+	</slideshow>
+	
+<!-- language 1 -->
+	<slideshow_lang>
+		<id_pos_slideshow>35</id_pos_slideshow>
+		<id_lang>1</id_lang>
+		<title></title>
+		<link></link>
+		<description>
+		<![CDATA[
+			<div class="info desc1">
+			<p class="title1 animated blurFadeInDown" data-animation="animated blurFadeInDown">herman miller</p>
+			<p class="title2 animated blurFadeInDown" data-animation="animated blurFadeInDown">office arm chairs</p>
+			<p class="readmore animated blurFadeInDown" data-animation="animated blurFadeInDown"><a class="view_more" href="#"><span>shop now</span></a></p>
+			</div>
+		]]>
+		</description>
+	</slideshow_lang>
+	<slideshow_lang>
+		<id_pos_slideshow>36</id_pos_slideshow>
+		<id_lang>1</id_lang>
+		<title></title>
+		<link></link>
+		<description>
+		<![CDATA[
+			<div class="info desc2">
+			<p class="title1 animated zoomInRight" data-animation="animated zoomInRight">classroom</p>
+			<p class="title2 animated zoomInRight" data-animation="animated zoomInRight">arm chairs</p>
+			<p class="title3 animated zoomInRight" data-animation="animated zoomInRight">Our Virco Classroom Chairs can handle any application</p>
+			<p class="readmore animated zoomInRight" data-animation="animated slideInRight"><a class="view_more" href="#"><span>shop now</span></a></p>
+			</div>
+		]]>
+		</description>
+	</slideshow_lang>
+	
+	
+<!--  language 2  -->
+		
+	<slideshow_lang>
+		<id_pos_slideshow>35</id_pos_slideshow>
+		<id_lang>2</id_lang>
+		<title></title>
+		<link></link>
+		<description>
+		<![CDATA[
+			<div class="info desc1">
+			<p class="title1 animated blurFadeInDown" data-animation="animated blurFadeInDown">herman miller</p>
+			<p class="title2 animated blurFadeInDown" data-animation="animated blurFadeInDown">office arm chairs</p>
+			<p class="readmore animated blurFadeInDown" data-animation="animated blurFadeInDown"><a class="view_more" href="#"><span>shop now</span></a></p>
+			</div>
+		]]>
+		</description>
+	</slideshow_lang>
+	<slideshow_lang>
+		<id_pos_slideshow>36</id_pos_slideshow>
+		<id_lang>2</id_lang>
+		<title></title>
+		<link></link>
+		<description>
+		<![CDATA[
+			<div class="info desc2">
+			<p class="title1 animated zoomInRight" data-animation="animated zoomInRight">classroom</p>
+			<p class="title2 animated zoomInRight" data-animation="animated zoomInRight">arm chairs</p>
+			<p class="title3 animated zoomInRight" data-animation="animated zoomInRight">Our Virco Classroom Chairs can handle any application</p>
+			<p class="readmore animated zoomInRight" data-animation="animated slideInRight"><a class="view_more" href="#"><span>shop now</span></a></p>
+			</div>
+		]]>
+		</description>
+	</slideshow_lang>
+	
+<!-- slideshop configuration -->
+	<slideshow_shop>
+		<id_pos_slideshow>35</id_pos_slideshow>
+		<id_shop>1</id_shop>
+	</slideshow_shop>
+    <slideshow_shop>
+		<id_pos_slideshow>36</id_pos_slideshow>
+		<id_shop>1</id_shop>
+	</slideshow_shop>	
+	  
+</pos_slideshow>
